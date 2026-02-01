@@ -15,17 +15,17 @@ Rather than being just a prediction or alerting tool, GridMind acts as a **junio
 
 ---
 
-## Business Value
+## Potential Value
 
 GridMind addresses key challenges in the energy sector:
 
-- ⚡ **Reduced incident response time**  
+- **Reduced incident response time**  
   Automated anomaly explanations reduce the need for manual investigation.
 
 - **Knowledge preservation**  
   Encodes expert knowledge and operational guidelines into an AI-accessible system.
 
-- 🌱 **Improved renewable integration**  
+- **Improved renewable integration**  
   Helps operators understand volatility caused by weather-driven generation.
 
 - **Consistent decision-making**  
@@ -45,8 +45,10 @@ GridMind addresses key challenges in the energy sector:
 
 GridMind combines **time-series machine learning**, **explainable AI**, and **LLM-based Retrieval-Augmented Generation (RAG)** into a single system.
 
-### High-level Architecture
+---
 
+## Project Structure
+![Workflow](assets/project_architecture.png)
 
 ---
 
@@ -78,7 +80,7 @@ GridMind combines **time-series machine learning**, **explainable AI**, and **LL
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language**: Python
 - **Data & ML**: pandas, scikit-learn, PyTorch (optional)
@@ -87,10 +89,6 @@ GridMind combines **time-series machine learning**, **explainable AI**, and **LL
 - **Backend**: FastAPI
 - **MLOps**: Docker, GitHub Actions (planned)
 - **Cloud**: Azure / GCP compatible
-
----
-
-## Project Structure
 
 ---
 
